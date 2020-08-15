@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+	
+	
+background-image: url("background.jpg");	
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+
+}
+

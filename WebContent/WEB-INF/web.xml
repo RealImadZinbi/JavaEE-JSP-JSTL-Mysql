@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  <servlet-name>ClientServlet</servlet-name>
+  <servlet-class>com.prj.servlet.ClientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ClientServlet</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>MescommandesServlet</servlet-name>
+  <servlet-class>com.prj.servlet.MescommandesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MescommandesServlet</servlet-name>
+  <url-pattern>/commandes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>UpdateServlet</servlet-name>
+  <servlet-class>com.prj.servlet.UpdateServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>UpdateServlet</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  <servlet-name>DeleteServlet</servlet-name>
+  <servlet-class>com.prj.servlet.DeleteServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>ConsulterCommande</servlet-name>
+  <servlet-class>com.prj.servlet.ConsulterCommandeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ConsulterCommande</servlet-name>
+  <url-pattern>/Consulter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>FournisseurServlet</servlet-name>
+  <servlet-class>com.prj.servlet.FournisseurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>FournisseurServlet</servlet-name>
+  <url-pattern>/registerFournisseur</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>LoginFournisseurServlet</servlet-name>
+  <servlet-class>com.prj.servlet.LoginFournisseurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginFournisseurServlet</servlet-name>
+  <url-pattern>/LoginFournisseur</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>ConsulterCommandeServletAdministrateur</servlet-name>
+  <servlet-class>com.prj.servlet.ConsulterCommandeServletAdministrateur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ConsulterCommandeServletAdministrateur</servlet-name>
+  <url-pattern>/ConsulterCommande</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>LoginAdministrateurServlet</servlet-name>
+  <servlet-class>com.prj.servlet.LoginAdministrateurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginAdministrateurServlet</servlet-name>
+  <url-pattern>/LoginAdministrateur</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>AllCommandeServlet</servlet-name>
+  <servlet-class>com.prj.servlet.AllCommandeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AllCommandeServlet</servlet-name>
+  <url-pattern>/AllCommandeServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>CommandeServlet</servlet-name>
+  <servlet-class>com.prj.servlet.CommandeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CommandeServlet</servlet-name>
+  <url-pattern>/ajout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.prj.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>AffecterCommandeServlet</servlet-name>
+  <servlet-class>com.prj.servlet.AffecterCommandeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AffecterCommandeServlet</servlet-name>
+  <url-pattern>/AffecterCommande</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>UpdateServletAdmin</servlet-name>
+  <servlet-class>com.prj.servlet.UpdateServletAdmin</servlet-class>  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UpdateServletAdmin</servlet-name>
+  <url-pattern>/UpdateServletAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>MesCommandeFournisseursServlet</servlet-name>
+ <servlet-class>com.prj.servlet.MesCommandeFournisseursServlet</servlet-class> 
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>MesCommandeFournisseursServlet</servlet-name>
+ <url-pattern>/MesCommandeFournisseurs</url-pattern>
+ </servlet-mapping>  
+ <servlet>
+ <servlet-name>ConsulterCommandeFournisseurServlet</servlet-name>
+ <servlet-class>com.prj.servlet.ConsulterCommandeFournisseurServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ConsulterCommandeFournisseurServlet</servlet-name>
+ <url-pattern>/ConsulterCommandeFournisseur</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>AccepterCommandeServlet</servlet-name>
+ <servlet-class>com.prj.servlet.AccepterCommandeServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>AccepterCommandeServlet</servlet-name>
+ <url-pattern>/AccepterCommandeServlet</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>MonStockServlet</servlet-name>
+ <servlet-class>com.prj.servlet.MonStockServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>MonStockServlet</servlet-name>
+ <url-pattern>/MonStockServlet</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>CommandeRecuServlet</servlet-name>
+ <servlet-class>com.prj.servlet.CommandeRecuServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>CommandeRecuServlet</servlet-name>
+ <url-pattern>/CommandeRecuServlet</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>RefuserCommandeServlet</servlet-name>
+ <servlet-class>com.prj.servlet.RefuserCommandeServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>RefuserCommandeServlet</servlet-name>
+ <url-pattern>/RefuserCommande</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>ListeClientServlet</servlet-name>
+ <servlet-class>com.prj.servlet.ListeClientServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ListeClientServlet</servlet-name>
+ <url-pattern>/ListeClient</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>BannirClientServlet</servlet-name>
+ <servlet-class>com.prj.servlet.BannirClientServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>BannirClientServlet</servlet-name>
+ <url-pattern>/BannirClient</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>DebannirClientServlet</servlet-name>
+ <servlet-class>com.prj.servlet.DebannirClientServlet</servlet-class>
+ </servlet>
+<servlet-mapping>
+<servlet-name>DebannirClientServlet</servlet-name>
+<url-pattern>/DebannirClient</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>BannirFournisseurServlet</servlet-name>
+<servlet-class>com.prj.servlet.BannirFournisseurServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>BannirFournisseurServlet</servlet-name>
+<url-pattern>/BannirFournisseur</url-pattern>
+
+</servlet-mapping>
+<servlet>
+<servlet-name>DebannirFournisseurServlet</servlet-name>
+<servlet-class>com.prj.servlet.DebannirFournisseurServlet</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>DebannirFournisseurServlet</servlet-name>
+<url-pattern>/DebannirFournisseur</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ListeFournisseurServlet</servlet-name>
+<servlet-class>com.prj.servlet.ListeFournisseurServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ListeFournisseurServlet</servlet-name>
+<url-pattern>/ListeFournisseur</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeleteCommandeAdmin</servlet-name>
+<servlet-class>com.prj.servlet.DeleteCommandeAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteCommandeAdmin</servlet-name>
+<url-pattern>/DeleteCommande</url-pattern>
+</servlet-mapping>
+ </web-app>
